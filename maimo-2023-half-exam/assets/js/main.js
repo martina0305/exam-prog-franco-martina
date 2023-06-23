@@ -147,17 +147,17 @@ const operaciones = [
     { num1: 60, num2: 0 },
 ]
 
-/*const {numero1} = operaciones.num1;
-const {numero2} = operaciones.num2;*/
+const {num1} = operaciones;
+const {num2} = operaciones;
+
+/*const multiplicacion = operaciones.map((op) => {
+    return op.numero1 * op.numero2
+})*/
 
 const multiplicacion = operaciones.map((op) => {
-    return op.numero1 * op.numero2
-})
-
-const multiplicacionMal = operaciones.map((op) => {
     return op.num1 * op.num2
 })
-console.log('Ejercicio _3_c ->', "multiplicacion", multiplicacionMal)
+console.log('Ejercicio _3_c ->', multiplicacion,"multiplicacionMal")
 
 
 
