@@ -99,7 +99,7 @@ const profile = {
 
 /*const twitterLink = profile.social.twitter;*/
 
-const {twitterLink} = profile.social.twitter;
+const {twitter} = profile.social;
 
 
 /*const twitter = {...profile.social.twitter}*/
@@ -108,7 +108,7 @@ const {twitterLink} = profile.social.twitter;
 
 /*const twitterNew = twitter;*/
 
-console.log('Ejercico _3_a  ->', twitterLink); // https://twitter.com/hearsparkbox /*profile.social.twitter*/
+console.log('Ejercico _3_a  ->', twitter); // https://twitter.com/hearsparkbox /*profile.social.twitter*/
 
 
 /*
